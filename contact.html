@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!-- Définir le style-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+    <title>Contact</title>
+  </head>
+
+  <body>
+      <!--Jumbotron-->
+      <div class="jumbotron" style="background-image: url(https://images.pexels.com/photos/62693/pexels-photo-62693.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); background-size: 100%;">
+        <div class="container">
+          <h2 class="display-4">Contactez-nous</h2>
+        </div>
+      </div>
+      <!-- Jumbotron -->
+
+          <!-- Inscription Form -->
+    <form>
+        <fieldset>
+          <legend>Votre message</legend>
+          <div class="form-group">
+            <label for="exampleInputEmail1">E-mail</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email@exemple.com">
+          </div>
+          <div class="form-group">
+              <label for="exampleTextarea">Votre message</label>
+              <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+            </div>
+          <fieldset class="form-group">
+            <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" value="" checked="">
+                M'envoyer une copie par mail 
+              </label>
+            </div>
+          </fieldset>
+          <button type="submit" class="btn btn-primary">Valider</button>
+        </fieldset>
+      </form>
+  </body>
+</html>
