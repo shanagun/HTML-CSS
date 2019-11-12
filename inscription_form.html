@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!-- Définir le style-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+    <title>Authentification Form</title>
+  </head>
+
+  <body>
+    <!-- Authentification Form -->
+    <form>
+      <fieldset>
+        <legend>S'inscrire</legend>
+        <div class="form-group">
+          <label for="exampleInputEmail1">E-mail</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email@exemple.com">
+          <small id="emailHelp" class="form-text text-muted">Vos informations ne seront jamais partagées.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Mot de passe</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="*******">
+        </div>
+        <div class="form-group">
+          <label for="exampleSelect1">Sexe</label>
+          <select class="form-control" id="exampleSelect1">
+            <option>Homme</option>
+            <option>Femme</option>
+            <option>Autre</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="exampleSelect2">Ville</label>
+          <select multiple="" class="form-control" id="exampleSelect2">
+            <option>Paris</option>
+            <option>Bordeaux</option>
+            <option>Marseille</option>
+            <option>Lyon</option>
+            <option>Strasbourg</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="exampleTextarea">A propos de vous</label>
+          <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputFile">Importer une photo *</label>
+          <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+          <small id="fileHelp" class="form-text text-muted">* Une photo de profil est obligatoire.</small>
+        </div>
+        <fieldset class="form-group">
+          <legend>Newsletter</legend>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+              Je souhaite m'inscrire à la Newsletter de Eventbrite 2.0.
+            </label>
+          </div>
+          <div class="form-check">
+          <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+              Je ne souhaite pas m'inscrire à la Newsletter de Eventbrite 2.0.
+            </label>
+          </div>
+        </fieldset>
+        <fieldset class="form-group">
+          <legend>Conditions générales</legend>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" value="" checked="">
+              J'accepte les conditions générales de Eventbrite 2.0 et souhaite procéder à l'inscription.
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" value="" enabled="">
+              J'accepte que Eventbrite 2.0 utilise mes données à des fins de marketing internes.
+            </label>
+          </div>
+        </fieldset>
+        <button type="submit" class="btn btn-primary">Valider</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!-- Définir le style-->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--- FAIRE FONCTIONNER NAVBAR --->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="#">EVENTBRITE 2.0</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Créer un évènement</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            test@test.com
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Mon Profil</a>
+            <a class="dropdown-item" href="#">Déconnexion</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Rechercher">
+          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Rechercher</button>
+        </form>
+      </div>
+    </nav>
+
+    <title>Resources</title>
+  </head>
+
+  <body>
+        <!-- Jumbotron -->
+        <div class="jumbotron jumbotron-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Others/forest2.jpg);">
+          <div class="text-white text-center rgba-stylish-strong py-5 px-4">
+            <div class="py-5">
+    
+              <!-- Content -->
+              <svg viewbox="0 0 100 20">
+                  <defs>
+                    <linearGradient id="gradient" x1="0" x2="0" y1="0" y2="1">
+                      <stop offset="5%" stop-color="#326384"/>
+                      <stop offset="95%" stop-color="#123752"/>
+                    </linearGradient>
+                    <pattern id="wave" x="0" y="0" width="120" height="20" patternUnits="userSpaceOnUse">
+                      <path id="wavePath" d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z" mask="url(#mask)" fill="url(#gradient)"> 
+                        <animateTransform
+                            attributeName="transform"
+                            begin="0s"
+                            dur="1.5s"
+                            type="translate"
+                            from="0,0"
+                            to="40,0"
+                            repeatCount="indefinite" />
+                      </path>
+                    </pattern>
+                  </defs>
+                  <text text-anchor="middle" x="50" y="15" font-size="10" fill="url(#wave)"  fill-opacity="0.6">EVENTBRITE 2.0</text>
+                  <text text-anchor="middle" x="50" y="15" font-size="10" fill="url(#gradient)" fill-opacity="0.1">EVENTBRITE 2.0</text>
+                </svg>
+              <!-- Content-->
+                
+            </div>
+          </div>
+        </div>
+        <!-- Jumbotron -->
+
+    <!-- Liste d'évènements -->
+    <div class="card-deck">
+        <div class="card">
+          <h3 class="card-header">Astroworld Festival</h3>
+          <div class="card-body">
+            <h5 class="card-title">Houston, TX</h5>
+            <h6 class="card-subtitle text-muted">3 Octobre 2020</h6>
+          </div>
+          <img style="height: 200px; width: 100%; display: block;" src="https://media.pitchfork.com/photos/5d8e47dee6ad950008e1c37a/2:1/w_790/Travis-Scott-ASTROWORLD.jpg" alt="Card image">
+          <div class="card-body">
+            <p class="card-text">FONDÉ PAR TRAVIS SCOTT, LE FESTIVAL ASTROWORLD EST UNE FÊTE MUSICALE CRÉÉE A HOUSTON…</p>
+          </div>
+          <div class="card-body">
+            <a href="#" class="btn btn-primary">Billets</a>
+            <div align="right">
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-instagram"></a>
+              <a href="#" class="fa fa-tumblr"></a>
+            </div>
+          </div>
+        </div>
+  
+          <div class="card">
+            <h3 class="card-header">RAMPAGE</h3>
+            <div class="card-body">
+              <h5 class="card-title">Anvers, BE</h5>
+              <h6 class="card-subtitle text-muted">13 Mars 2020</h6>
+            </div>
+            <img style="height: 200px; width: 100%; display: block;" src="https://static.ready2move.net/party/big/61500/61747.jpg" alt="Card image">
+            <div class="card-body">
+              <p class="card-text">RAMPAGE est prêt à accueillir 30 000 personnes pour 2 jours, avec les meilleurs artistes de la scène dubstep…</p>
+            </div>
+            <div class="card-body">
+              <a href="#" class="btn btn-primary">Billets</a>
+              <div align="right">
+                  <a href="#" class="fa fa-facebook"></a>
+                  <a href="#" class="fa fa-twitter"></a>
+                  <a href="#" class="fa fa-instagram"></a>
+                  <a href="#" class="fa fa-tumblr"></a>
+                </div>
+            </div>
+          </div>
+  
+          <div class="card">
+            <h3 class="card-header">Pukkelpop</h3>
+            <div class="card-body">
+              <h5 class="card-title">Hasselt, BE</h5>
+              <h6 class="card-subtitle text-muted">15 Août 2021</h6>
+            </div>
+            <img style="height: 200px; width: 100%; display: block;" src="https://proximuspickx.staticskynet.be/images/pukkelpop/new-banner-pkp.png" alt="Card image">
+            <div class="card-body">
+              <p class="card-text">Le Pukkelpop est un festival de musique belge, organisé près d'Hasselt, à Kiewit…</p>
+            </div>
+            <div class="card-body">
+              <a href="#" class="btn btn-primary">Billets</a>
+              <div align="right">
+                  <a href="#" class="fa fa-facebook"></a>
+                  <a href="#" class="fa fa-twitter"></a>
+                  <a href="#" class="fa fa-instagram"></a>
+                  <a href="#" class="fa fa-tumblr"></a>
+                </div>
+            </div>
+          </div>
+  
+          <div class="card">
+            <h3 class="card-header">UFC 202</h3>
+            <div class="card-body">
+              <h5 class="card-title">Las Vegas, NV</h5>
+              <h6 class="card-subtitle text-muted">20 Août 2021</h6>
+            </div>
+            <img style="height: 200px; width: 100%; display: block;" src="http://i.imgur.com/y3LIzTW.jpg" alt="Card image">
+            <div class="card-body">
+              <p class="card-text">LE CHOC DES TITANS ENTRE McGREGOR et NATE DIAZ POUR L'UFC N°202…</p>
+            </div>
+            <div class="card-body">
+              <a href="#" class="btn btn-primary">Billets</a>
+              <div align="right">
+                  <a href="#" class="fa fa-facebook"></a>
+                  <a href="#" class="fa fa-twitter"></a>
+                  <a href="#" class="fa fa-instagram"></a>
+                  <a href="#" class="fa fa-tumblr"></a>
+                </div>
+            </div>
+          </div>
+      </div>
+      <!-- Liste d'évènements -->
+  </body>
+  
+  <!-- Footer -->
+  <footer class="page-footer font-small blue pt-4">
+
+      <!-- Footer Links -->
+      <div class="container-fluid text-center text-md-left">
+        <!-- Grid row -->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-6 mt-md-0 mt-3">
+            
+            <!-- Content -->
+            <h5 class="text-uppercase">Eventbrite 2.0</h5>
+            
+          </div>
+          <!-- Grid column -->
+            
+          <hr class="clearfix w-100 d-md-none pb-3">
+            
+          <!-- Grid column -->
+          <div class="col-md-3 mb-md-0 mb-3">
+            
+            <!-- Links -->
+            <h5 class="text-uppercase">Services</h5>
+            
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!">Créer un évènement</a>
+              </li>
+              <li>
+                <a href="#!">Voir mon profil</a>
+              </li>
+              <li>
+                <a href="#!">Gérer les évènements</a>
+              </li>
+            </ul>
+            
+          </div>
+          <!-- Grid column -->
+            
+          <!-- Grid column -->
+          <div class="col-md-3 mb-md-0 mb-3">
+            
+            <!-- Links -->
+            <!--<h5 class="text-uppercase">Links</h5>-->
+            
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!">Support</a>
+              </li>
+              <li>
+                <a href="#!">FAQ</a>
+              </li>
+              <li>
+                <a href="#!">Nous contacter</a>
+              </li>
+              <li>
+                <a href="#!">A propos</a>
+              </li>
+            </ul>
+            
+          </div>
+          <!-- Grid column -->
+            
+        </div>
+        <!-- Grid row -->
+            
+      </div>
+      <!-- Footer Links -->
+            
+  </footer>
+  <!-- Footer -->
+
+</html>
